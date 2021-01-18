@@ -1,28 +1,49 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset='UTC-8'>
-    <title>Ken's Page</title>
-    <link rel="stylesheet" href="style.css">
-    <style>
+<meta charset="utf-8">
+<title>The Box Model</title>
+<style>
 
-    </style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  margin: 0;
+
+}
+
+#box {
+  background-color: blue;
+  padding: 10px;
+  border: 5px solid hotpink;
+  width: 500px;
+  margin-top: 60px;
+  margin: 40px;
+
+}
+#content {
+  background-color: #90EE90; /*green*/
+
+}
+
+h1 {
+  margin-bottom: 30px;
+}
+
+</style>
 </head>
 <body>
-    <h1><a href='index.html'>Welcome to Ken's Page</a></h1>
-    <header>
-        <ul>
-            <li><a href="#chapter1">Chapter 1: My Love for Adventure! </a></li>
-            <li></li>
-        </ul>
-    </header>
-    <section id='chapter1'>
-        <img src="BKOX7883.jpg" alt="me" id='kenny'>
-        <h2>Chapter 1: My Love for Adventure! </h2>
-        <p> &quot;I have always loved traveling around the world! Well, not always. More like, I have developed a love for traveling. I never really understood the purpose of 
-            exposing myself to different experiences. Unbeknownst to me when I was an innocent little boy, I hated everything. I questioned everything in life as a boy, from religion
-            to education, and even to own sweet mother.
-        </p>
-    </section>
+
+<h1>Box Model</h1>
+
+<div id="box">
+  <div id="content">Lorem ipsum dolor sit amet, consectetur adipisicing elit. </div>
+</div>
+
+
 </body>
 </html>
+
