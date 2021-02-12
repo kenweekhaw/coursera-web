@@ -1,1 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+.row {
+    margin-bottom: 15px;
+}
 
+.row > div {
+    /* margin-bottom: 15px; */
+    border: 1px solid salmon;
+    height: 100px;
+    background-color: springgreen;
+}
