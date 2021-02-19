@@ -1,13 +1,11 @@
-* {
-    box-sizing: border-box;
-}
-.row {
-    margin-bottom: 15px;
+body {
+    font-family: 'Oxygen', sans-serif;
+    background-color: rgb(20, 194, 194);
+    color: white;
 }
 
-.row > div {
-    /* margin-bottom: 15px; */
-    border: 1px solid salmon;
-    height: 100px;
-    background-color: springgreen;
+#logo-image {
+    background-image: url("images/Untitled.png") no-repeat;
+    height: 200px;
+    width: 200px;
 }
